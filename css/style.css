@@ -121,7 +121,7 @@ body {
   
   .content {
     padding: 16px;
-    outline: 1px dashed red;
+    
   }
   
   .sticky {
@@ -1051,7 +1051,7 @@ h3{
     background-size: center;
     padding-top: 50px;
     width: 100%;
-    outline: 1px dashed red;
+    
   }
   .leftcard{
     max-width: 700px;
@@ -1167,7 +1167,7 @@ h3{
 
 .project_photo{
   margin: auto;
-  outline: 1px dashed red;
+  
   width: 100%;
 }
 .project_photo img{
