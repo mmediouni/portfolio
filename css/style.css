@@ -762,7 +762,7 @@ h4{
 ###########################################################*/
 
 
-@media screen and (min-width:768px) and (max-width:1024px){
+@media screen and (min-width:768px) and (max-width:3000px){
   .hidden_at_desktop{
     display: none;
     font-size: 22px;
