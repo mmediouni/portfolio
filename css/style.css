@@ -5,34 +5,42 @@
   font-family: Matrix;
   src: url(..//fonts/BusMatrixCondensed-Condensed.ttf);
 }
+
 @font-face {
   font-family: Arcade;
   src: url(..//fonts/ka1.ttf);
 }
+
 @font-face {
   font-family: MyName;
   src: url(..//fonts/Thunder\ Stone\ Script.ttf);
 }
+
 @font-face {
   font-family: MyName2;
   src: url(..//fonts/Thunder\ Stone\ Script.ttf);
 }
+
 @font-face {
   font-family: Gnet;
   src: url(..//fonts/AmpleSoft-Regular.ttf);
 }
+
 @font-face {
   font-family: makina;
   src: url(..//fonts/Maquina\ de\ Escribir.ttf);
 }
+
 @font-face {
   font-family: titles;
   src: url(..//fonts/All\ Things\ Must\ Pass.ttf);
 }
+
 @font-face {
   font-family: terror;
   src: url(..//fonts/Terror.ttf);
 }
+
 @font-face {
   font-family: corrupted;
   src: url(..//fonts/Corrupted\ File.ttf);
@@ -64,41 +72,38 @@
 
 
 body {
-    margin: 0;
-    font-size: 28px;
-    font-family: Arial, Helvetica, sans-serif;
-    display: flex;
-    flex-direction: column;
-    background-image: url("../images/background-circles.svg");
-    background-repeat: no-repeat;
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  flex-direction: column;
+  background-image: url("../images/background-circles.svg");
+  background-repeat: no-repeat;
   background-position: center center;
-  
-  }
+}
+
   html {
     scroll-behavior: smooth;
-  }
-  
-  .intro {
-    
+    }
+
+  .intro { 
     padding: 30px;
-    
     text-align: center;
     margin-top: 50px;
-    
-    
   }
+
   .hello{
     float: left;
     width: 20%;
     margin-right: 10px;
   }
-  
+
   #navbar {
     overflow: hidden;
     background-color: #333;
     background-color: #6A1AD6;
-  }
-  
+  }  
+
   #navbar a {
     float: left;
     display: block;
@@ -107,47 +112,42 @@ body {
     padding: 14px 16px;
     text-decoration: none;
     font-size: 17px;
-  }
-  
+  }  
+
   #navbar a:hover {
     background-color: #ddd;
     color: black;
   }
-  
+
   #navbar a.active {
     background: linear-gradient(180deg,#f2cf00 0,#f2b200 100%);
     color: white;
   }
-  
+
   .content {
-    padding: 16px;
-    
+    padding: 16px; 
   }
-  
+
   .sticky {
     position: fixed;
     top: 0;
     width: 100%;
     opacity:90%;
-    z-index: 1;
-    
+    z-index: 1; 
   }
-  
+
   .sticky + .content {
     padding-top: 3px;
-    
   }
 
-
-#home{
+  #home{
     background-position: center;
     /* display: flex; */
     flex-direction: column;
     text-align: center;
 }
 
-header{
-    
+header{  
   /* height: 600px; */
     background-image: url("../images/bgmauve.png");
     background-size: cover;
@@ -160,44 +160,36 @@ header{
  margin: auto;
  padding: 15px;
 }
+
 .logo{
 width: 10%;
 }
 
 .logo:hover{
-  width: 10%;
-  
+  width: 10%; 
   filter: hue-rotate(305deg);
-  
-
-    
   }
 
 .topline_rightdiv img{
   width: 70%;
-  
-
 }
-
-
-#about{
-  
+#about{ 
     display: flex;
     justify-content: space-around;
     background-image: url("../images/bgmauve.png");
     background-size: cover;
     padding-top: 50px;
-    
 }
+
 .hidden_at_desktop{
   font-family: makina;
   font-size: 44px;
   color: #f2b200;
 }
+
 .mypic{
     border-radius: 5px;
 }
-
 
 .line-1{
   font-family: Matrix;
@@ -213,8 +205,7 @@ width: 10%;
   transform: translateY(-50%);
   color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),url(images/bg-matrix.jpg) repeat;
-  color: #f2cf00;;
-  
+  color: #f2cf00;; 
 }
 
 .line-1 span{
@@ -226,19 +217,20 @@ width: 10%;
 .signature{
   text-align: right;
   color: white;
-  font-size: 1.3rem;
-  
+  font-size: 1.3rem; 
 }
+
 .whoiam{
   text-align: left;
   font-size: 18px ;
-
 }
 /* Animation */
+
 .anim-typewriter{
 animation: typewriter 4s steps(44) 1s 1 normal both,
            blinkTextCursor 500ms steps(44) infinite normal;
 }
+
 @keyframes typewriter{
 from{width: 0;}
 to{width: 24em;}
@@ -247,36 +239,33 @@ to{width: 24em;}
 from{border-right-color: rgba(255,255,255,.75);}
 to{border-right-color: transparent;}
 }
-
+/* Animation END */
 
 .btn-outline-info , .boutton-modal{
   background: #f2cf00;
-    background: linear-gradient(180deg,#f2cf00 0,#f2b200 100%);
-    box-shadow: 0 2px 3px rgba(0,0,0,.5);
-    border: none!important;
-    color: rgba(0,0,0,.6);
-    padding: 12px 30px;
-    border-radius: 30px;
+  background: linear-gradient(180deg,#f2cf00 0,#f2b200 100%);
+  box-shadow: 0 2px 3px rgba(0,0,0,.5);
+  border: none!important;
+  color: rgba(0,0,0,.6);
+  padding: 12px 30px;
+  border-radius: 30px;
 }
+
 .cvbutton{
   padding-top: 20px;
   font-family: terror;
 }
+
 .cvbutton a{
   font-size: 2rem;
 }
-
-
 
 .whoyouare{
   clear: both;
 }
 
 /* ============= leftcard Start============= */
-
-
 .leftcard{
-  
   max-width: 300px;
   margin: 5px;
   text-align: center;
@@ -288,6 +277,7 @@ to{border-right-color: transparent;}
   box-shadow: 0px 2px 18px 1px rgba(0,0,0,0.77);
   background-color: rgba(255, 255, 255, 0.171); 
 }
+
 .titlex {
   color: #f2b200;
   font-family: terror;
@@ -296,7 +286,6 @@ to{border-right-color: transparent;}
   background: -webkit-linear-gradient(transparent, transparent),
               url(../images/blood.jpg) repeat;  -webkit-background-clip: text;
 }
-  
 
 .contact-info{
   font-size: 22px ;
@@ -304,44 +293,35 @@ to{border-right-color: transparent;}
   font-size: 0.9375rem;
   color: #ddd;
   font-family: "Inter", sans-serif;
-  text-align: left!important;
-  
-  
+  text-align: left!important;  
 }
+
 .contact-info:hover{
   color: #f2b200;
-    cursor: pointer;
-    text-decoration: none;
-    -webkit-text-decoration-skip: objects;
-    transition: color 0.3s cubic-bezier(0.72, 0.16, 0.345, 0.875);
-    text-align: left;
-    text-shadow: 1px 1px 11px rgb(131, 133, 131);
-  
-  
+  cursor: pointer;
+  text-decoration: none;
+  -webkit-text-decoration-skip: objects;
+  transition: color 0.3s cubic-bezier(0.72, 0.16, 0.345, 0.875);
+  text-align: left;
+  text-shadow: 1px 1px 11px rgb(131, 133, 131);
 }
+
 .contact-info a{
   color: white;
   text-decoration: none;
 }
+
 .contact-info a:hover{
-  
-  
   color: #f2b200;
 }
 
 .contactlinks{
-    display: flex;
-    flex-direction: column;
-    align-items: left;
+  display: flex;
+  flex-direction: column;
+  align-items: left;
 }
 
-
 /* ========== tooltip text ========= */
-
-
-
-
-
 button { 
   border: none;
   outline: 0;
@@ -352,20 +332,21 @@ button {
   text-align: center;
   cursor: pointer;
   width: 100%;
-  font-size: 18px;
-  
+  font-size: 18px;  
 }
+
 .myavatar{
   border-bottom-left-radius: 40%;
   border-bottom-right-radius: 40%;
   box-shadow: 0px 86px 41px -73px rgba(0,0,0,0.59);
-
 }
+
 .socials i {
   margin: 4px;
   font-size: 50px;
   color: black;
 }
+
 .socials a{
   text-decoration: none;
 }
@@ -375,6 +356,7 @@ button:hover, .socials i:hover{
 }
 
 /* ============= leftcard End============= */
+
 .article_presentation{
   margin: 5px;
   margin-top: 6px;
@@ -388,53 +370,21 @@ button:hover, .socials i:hover{
   background-color: rgba(255, 255, 255, 0.171);
   padding-left: 22px;
   padding-top: 22px;
-
 }
+
 .logo_gnet{
   filter: blur(5px);           
   width: 10%;
   transition: 1s;
 }
+
 .logo_gnet:hover{
   filter: blur(0px);           
-  
 }
+
 footer div a{
   margin: auto;
 }
-
-/* =======progress bar Start======= */
-/* .progressbar{
-  box-sizing: border-box;
-}
-.container {
-  width: 77%;
-  background-color: #ddd;
-}
-
-.skills {
-  text-align: right;
-  color: white;
-}
-
-.html{
-  width: 90%;
-  background-color: #4CAF50;
-}
-.css {
-  width: 80%; 
-  background-color: #2196F3;
-}
-.js {
-  width: 65%; 
-  background-color: #f44336;
-}
-.php {
-  width: 60%; 
-  background-color: #808080;
-} */
-
-/* ====Bootstrap modal Manual_edit==== */
 
 .modal-content{
   background-image: url("../images/background-circles.svg");
@@ -442,18 +392,18 @@ footer div a{
   background-position: center center;
   background-size: contain;
 }
+
 .modal-header {
-  
-  
   align-items: flex-start;
   -ms-flex-pack: justify;
   justify-content: space-between;
   justify-content: flex-end;
-  
 }
+
 .logo-modal{
   margin-left: 110px;
 }
+
 button.close {
   padding: 0;
   background-color: transparent;
@@ -465,22 +415,25 @@ button.close {
   color: #495057;
   background-color: transparent;
 }
+
 .whaticando {
   width: 100%;
   padding: 2px;
   margin: 5px auto 0;
 }
+
 .whaticando li {
   font-size: 1.2rem;
   list-style: none;
-
 }
+
 .whaticando li::before {
   font-family: FontAwesome;
-    content: "\f00c";
-    padding: 23px;
-    color: green;
+  content: "\f00c";
+  padding: 23px;
+  color: green;
 }
+
 .progressbar {
   width: 40%;
   margin: 5px auto 0;
@@ -542,21 +495,21 @@ button.close {
   }
 }
 
-.progressbar ul li.js:after {
-  animation-name: js;
+.progressbar ul li.bs:after {
+  animation-name: bs;
 }
 
-@keyframes js {
+@keyframes bs {
   to {
       width: 75%;
   }
 }
 
-.progressbar ul li.ng:after {
-  animation-name: ng;
+.progressbar ul li.wp:after {
+  animation-name: wp;
 }
 
-@keyframes ng {
+@keyframes wp {
   to {
       width: 60%;
   }
@@ -568,12 +521,12 @@ button.close {
   justify-content: space-between;
   text-align: left;
   margin-top: 22px;
-  
 }
 
 .h1, .stylo{
   font-family: MyName;
 }
+
 .stylo{
   font-size: 100px;
   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;  
@@ -581,23 +534,25 @@ button.close {
   background: -webkit-linear-gradient(transparent, transparent),
               url(../images/yellow-background.jpg) repeat;  -webkit-background-clip: text;
 }
+
 .myactualjob{
   Font-family: Consolas;
   text-align: left;
   font-size: 1.2rem;
-
 }
+
 .tunisia{
   color: #fff;
-    font-size: 100px;
-    transition: 1s;
-    
+  font-size: 100px;
+  transition: 1s;    
 }
+
 .tunisia:hover{
   color: transparent;
   background: -webkit-linear-gradient(transparent, transparent),
               url(../images/tff.jpg) repeat;  -webkit-background-clip: text;
 }
+
 .h2{
   font-size: 77px;
 }
@@ -611,7 +566,9 @@ h3{
   margin: 11px auto;
   font-size: 1.33rem;
   text-align: center;
+  line-height: 1.6;
 }
+
 h4{
   text-align: center;
   text-transform: uppercase;
@@ -620,7 +577,6 @@ h4{
   background: -webkit-linear-gradient(transparent, transparent),
               url(../images/bg-matrix.jpg) repeat;  -webkit-background-clip: text;
 }
-
 
 .gnet{
   font-family: Gnet;
@@ -639,11 +595,11 @@ h4{
   box-shadow: 0px 2px 18px 1px rgba(0,0,0,0.77);
   width: auto;
 }
+
 .projects{
   display: flex;
   flex-wrap: wrap;
 }
-
 
 .project_container{
   /* background-color: white; */
@@ -654,6 +610,7 @@ h4{
   flex-direction: column;
   transition: 0.4s;
 }
+
 .project_container:hover{
   background-color: rgba(255, 255, 255, 0.342);
   border-radius: 20px;
@@ -661,14 +618,13 @@ h4{
   margin: 25px;
 }
 .project_photo{
-  
-  border-radius: 20px;
-  
+  border-radius: 20px;  
   background-image: url("../images/blankpc.png");
   background-size: cover;
   width: 400px;
   height: 200px;
 }
+
 .project_photo img{
   border-radius: 12px;
   width: 285px;
@@ -677,7 +633,6 @@ h4{
   padding-top: 2px;
   border-bottom-left-radius: 1%;
   border-bottom-right-radius: 1%;
-
 }
 
 .mes_competences{
@@ -692,6 +647,7 @@ h4{
   box-shadow: 0px 2px 18px 1px rgba(0,0,0,0.77);
   width: auto;
 }
+
 .skillsandprogressbar{
   display: flex;
   width: 90%;
@@ -705,86 +661,86 @@ h4{
   box-sizing: border-box;
 }
 
-
-
-.gallery {
-  /* background: #EEE; */
-}
-
 .gallery-cell {
   width: 14%;
   height: 170px;
   margin-right: 10px;
   /* background: #8C8; */
-  
-  
 }
 
 .gallery-cell p {
   font-family: Gnet;
-  
 }
+
+.swipe_left p {
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  position: absolute;
+  top: 60px;
+  left: 70px;
+  color: #495057af;
+  font-size: 1.6rem;
+  text-shadow: 1px 0px 9px rgba(150, 150, 150, 1);
+}
+
+.swipe_left img {
+  height: 150px;
+}
+
 .gallery-cell img {
   width: auto;
   height: 120px;
   transition: 1s;
 }
+
 .gallery-cell img:hover {
   z-index: 1;
   transform: translateY(5px);
 }
-
-
 /* cell number */
+
 .gallery-cell:before {
   display: block;
-  text-align: center;
-  
+  text-align: center;  
   line-height: 200px;
   font-size: 80px;
   color: white;
 }
-
 
 .hireme{
   display: flex;
   flex-direction: column;
   text-align: center;
 }
+
 .hireme span{
   font-family: Arcade;
-  color: white;
-  
+  color: white;  
 }
 
 .hireme_links{
   display: flex;
   justify-content: space-around;
-  
-
 }
+
 .hireme_links img{
   width: 60%; 
   filter: grayscale(100%);
   transition: 1s;
-
 }
+
 .hireme_links img:hover{
   width: 60%; 
   filter: grayscale(0%);
   transform: translateY(-10px);
 }
 
-
 /* Bootstrap collapse area Start */
 .card {
   background-color:transparent;
   border: none;
-  border-radius: 1.25rem;
-  
-  
-  
+  border-radius: 1.25rem;  
 }
+
 .btn-link {
   text-decoration: none;
   color: black
@@ -795,25 +751,26 @@ h4{
   color: #f2cf00;
 }
 /* Bootstrap collapse area End */
-
-
-
-
-
-
-
+#copyright {
+  text-align: center;
+  font-size: 14px;
+  padding: 15px 0 10px;
+}
 /* ########################################################
 ######################## Responsive #######################
 ########################  DESKTOP #######################
 ###########################################################*/
 
 
-@media screen and (min-width:801px) and (max-width:2000px){
+@media screen and (min-width:768px) and (max-width:1024px){
   .hidden_at_desktop{
     display: none;
     font-size: 22px;
     color: #f2b200;
   }
+  .swipe_left{
+    display: none;
+  }  
 }
 
 /* ########################################################
@@ -821,7 +778,7 @@ h4{
 ########################  TABLETTE #######################
 ###########################################################*/
 
-@media screen and (min-width:400px) and (max-width:800px){
+@media screen and (min-width:361px) and (max-width:767px){
   #about{
     flex-direction: column-reverse;
     justify-content: space-around;
@@ -830,24 +787,30 @@ h4{
     padding-top: 50px;
     width: 100%;
   }
+
   .leftcard{
     max-width: 700px;
     text-align: center;
     width: 90%;
   }
+
   .myavatar{
     display: none;
 }
+
 .titlex, .h1{
-  display: none;
+    display: none;
 }
+
 .article_presentation{
-  width: 90%;
-  flex-direction: column;
+    width: 90%;
+    flex-direction: column;
 }
+
 .logo_gnet{
   width: 20%;
 }
+
 .line-1{
   margin-top: 0px;
   padding-top: 0px;
@@ -859,61 +822,61 @@ h4{
 .line-1 span{
   font-size: 0.85rem;
 }
+
 .content {
   padding: 22px;
   margin: auto;
-  
-  
 }
+
+.cvbutton a{
+  font-size: 1.3rem;
+}
+
 .intro{
   margin: 0px;
   padding: 0px;
   text-align: center;
- 
   width: 90%;
   margin: auto;
 }
+
 .topline{
-  
   width: 100%;
   margin: auto;
   padding: 10px;
-  
  }
+
  .logo{
  width: 20%;
- 
  }
- 
+
  .logo:hover{
    width: 20%;
   }
- 
- .topline_rightdiv img{
+
+  .topline_rightdiv img{
    width: 90%;
-   
  }
+
  .stylo{
   font-size: 28px;
 }
+
 .myactualjob{
   font-size: 1.4rem;
-  
 }
+
 .tunisia{
   color: rgba(161, 14, 14, 0.767);
   font-size: 40px;
-  
 }
 
 h3{
   margin: 1px auto;
-  font-size: 0.9rem;
-  
+  font-size: 0.9rem; 
 }
 
-.mes_projets{
-  
+.mes_projets{ 
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -925,13 +888,12 @@ h3{
   box-shadow: 0px 2px 18px 1px rgba(0,0,0,0.77);
   width: auto;
 }
+
 .projects{
   display: flex;
   flex-wrap: wrap;
-  justify-items: center;
-  
+  justify-items: center;  
 }
-
 
 .project_container{
   /* background-color: white; */
@@ -949,8 +911,7 @@ h3{
   display: flex;
   flex-direction: column;
   width: 90%;
-  margin: auto;
-  
+  margin: auto; 
 }
 
 /* external css: flickity.css */
@@ -959,9 +920,16 @@ h3{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .gallery-cell {
-  width: 40%;
-  height: 150px;
+  width: 20%;
+  height: 100px;
+}
+
+.gallery-cell img {
+  width: auto;
+  height: 100px;
+  transition: 1s;
 }
 
 .gallery-cell img:hover {
@@ -979,35 +947,53 @@ h3{
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+#last_jobs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#last_jobs a{
+  width: 100%;
+  padding: 20px;
+}
+
 .hireme_links a{
   padding: 11px;
   width: 40%;
 }
+
 .hireme_links img{
   width: 70%; 
   transition: 1s;
 }
+
 .hireme_links img:hover{
   width: 75%; 
 }
+
 .skillsandprogressbar{
-  
   flex-direction: column;
   width: 90%;
   margin: auto;
 }
+
 .whaticando {
   margin: auto;
   padding: 2px;
   margin-left: 0px ;
   text-align: left;
 }
+
 .whaticando li {
   font-size: 1.1rem;
 }
+
 .whaticando li::before {
     padding: 10px; 
 }
+
 .progressbar {
   width: 90%;
   margin: auto;
@@ -1018,8 +1004,8 @@ h3{
 .progressbar ul li:after {
   animation-duration: 10s;
 }
-.contact-info{
-  
+
+.contact-info{ 
   font-size: 40px ;
   margin: auto;
   width: 90%;
@@ -1027,22 +1013,23 @@ h3{
   color: #ddd;
   padding: 15px;  
 }
+
 .contact-info:hover {
   background-color: rgba(221, 221, 221, 0.411);
   color: #f2b200;
 }
+
 .contact-info a:hover{
   color: #f2b200;
 }
 }
-
 
 /* ########################################################
 ######################## Responsive #######################
 ########################  MOBILE #######################
 ###########################################################*/
 
-@media screen and (max-width:767px)
+@media screen and (max-width:360px)
 {
   #about{
     flex-direction: column-reverse;
@@ -1050,27 +1037,32 @@ h3{
     align-items: center;
     background-size: center;
     padding-top: 50px;
-    width: 100%;
-    
+    width: 100%;   
   }
+
   .leftcard{
     max-width: 700px;
     text-align: center;
     width: 90%;
   }
+
   .myavatar{
     display: none;
 }
+
 .titlex, .h1{
   display: none;
 }
+
 .article_presentation{
   width: 90%;
   flex-direction: column;
 }
+
 .logo_gnet{
   width: 20%;
 }
+
 .line-1{
   margin-top: 0px;
   padding-top: 0px;
@@ -1082,61 +1074,69 @@ h3{
 .line-1 span{
   font-size: 0.85rem;
 }
+
 .content {
   padding: 22px;
-  margin: auto;
-  
-  
+  margin: auto; 
 }
+
 .intro{
   margin: 0px;
   padding: 0px;
   text-align: center;
- 
   width: 90%;
   margin: auto;
 }
+
 .topline{
-  
   width: 100%;
   margin: auto;
   padding: 10px;
-  
  }
- .logo{
- width: 20%;
- 
+
+.logo{
+  width: 20%;
  }
  
- .logo:hover{
-   width: 20%;
-  }
- 
+.logo:hover{
+  width: 20%;
+ }
+
  .topline_rightdiv img{
-   width: 90%;
-   
+  width: 90%;
  }
+
  .stylo{
   font-size: 28px;
 }
+
 .myactualjob{
   font-size: 1.4rem;
-  
 }
+
 .tunisia{
   color: rgba(161, 14, 14, 0.767);
   font-size: 40px;
-  
 }
 
 h3{
   margin: 1px auto;
-  font-size: 0.9rem;
-  
+  font-size: 0.9rem; 
 }
 
-.mes_projets{
-  
+.cvbutton a{
+  font-size: 1.1rem;
+}
+
+.flickity-enabled {
+  position: unset;
+}
+
+.flickity-button ,.flickity-prev-next-button ,.previous{
+  display: none;
+}
+
+.mes_projets{ 
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -1148,42 +1148,38 @@ h3{
   box-shadow: 0px 2px 18px 1px rgba(0,0,0,0.77);
   width: auto;
 }
+
 .projects{
   display: flex;
   flex-wrap: wrap;
   justify-items: center;
-  
 }
-
 
 .project_container{
   /* background-color: white; */
   width: 66%;
   margin: 0px;
   margin: auto;
-  justify-items: center;
-  
+  justify-items: center;  
 }
 
 .project_photo{
-  margin: auto;
-  
+  margin: auto; 
   width: 100%;
 }
+
 .project_photo img{
   width: 100%;
   height: 100%;
   padding-right: 0px;
   padding-top: 0px;
-  
-
 }
+
 .mes_competences{
   display: flex;
   flex-direction: column;
   width: 90%;
   margin: auto;
-  
 }
 
 /* external css: flickity.css */
@@ -1192,9 +1188,16 @@ h3{
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
+
 .gallery-cell {
-  width: 40%;
-  height: 150px;
+  width: 20%;
+  height: 100px;
+}
+
+.gallery-cell img {
+  width: auto;
+  height: 100px;
+  transition: 1s;
 }
 
 .gallery-cell img:hover {
@@ -1207,40 +1210,59 @@ h3{
   margin: auto;
 }
 
-.hireme_links{
+.hireme_links {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
 .hireme_links a{
   padding: 11px;
   width: 40%;
 }
+
 .hireme_links img{
   width: 70%; 
   transition: 1s;
 }
+
+#last_jobs{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+
+#last_jobs a{
+  width: 100%;
+  padding: 20px;
+}
+
 .hireme_links img:hover{
   width: 75%; 
 }
+
 .skillsandprogressbar{
   
   flex-direction: column;
   width: 90%;
   margin: auto;
 }
+
 .whaticando {
   margin: auto;
   padding: 2px;
   margin-left: 0px ;
   text-align: left;
 }
+
 .whaticando li {
   font-size: 1.1rem;
 }
+
 .whaticando li::before {
     padding: 10px; 
 }
+
 .progressbar {
   width: 90%;
   margin: auto;
@@ -1251,8 +1273,8 @@ h3{
 .progressbar ul li:after {
   animation-duration: 10s;
 }
-.contact-info{
-  
+
+.contact-info{ 
   font-size: 40px ;
   margin: auto;
   width: 90%;
@@ -1260,10 +1282,12 @@ h3{
   color: #ddd;
   padding: 15px;  
 }
+
 .contact-info:hover {
   background-color: rgba(221, 221, 221, 0.411);
   color: #f2b200;
 }
+
 .contact-info a:hover{
   color: #f2b200;
 }
